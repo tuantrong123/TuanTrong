@@ -1,12 +1,12 @@
+<!DOCTYPE html>
 <html>
 	<head>
-		<title>Bai 3</title>
+		<title>Exercise 3</title>
 	</head>
 	<body>
 		<h1> Travel reservation form </h1>
 		<h2>*denoter mandotory</h2>
-		<form>
-		<p>
+		<form action="/action_page.php" method="post">
 			<label>Fullname*:</label><br>
 				<input type="text" placeholder="FirstName LastName"><br>
 			<label for="email">Email address*:</label><br>
@@ -23,15 +23,14 @@
 			<label>Number of persons*:</label><br>
 				<input type="text"><br>
 			<label>What would you want to avail?*</label><br>
-			Boarding<input type="checkbox"><br>
-			Fooding<input type="checkbox"><br>
-			Sight seeing<input type="checkbox"><br>
+				Boarding<input type="checkbox"><br>
+				Fooding<input type="checkbox"><br>
+				Sight seeing<input type="checkbox"><br>
 			<label>Discount Coupon code:</label><br>
-			<input type="text">
-			<br><input type="radio" name="agree"> I agree </input>
-			<input type="radio" name="disagree"> I disagree </input><br>
-		</p>
+				<input type="text">
+				<br><input type="radio" name="agree"> I agree </input>
+				<input type="radio" name="disagree"> I disagree </input><br>
 		</form>
-		<button type="Complete reservation">Complete reservation</button>
+		<button type="complete reservation">Complete reservation</button>
 	</body>
 </html>

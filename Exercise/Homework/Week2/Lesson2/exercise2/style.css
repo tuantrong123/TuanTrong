@@ -1,7 +1,4 @@
-body{
-	background-color: ;
-}
-.box{
+.container {
 	width:50%;
 	border: 3px dotted black;
 	background-color: cornsilk;
@@ -10,7 +7,10 @@ body{
 	margin-left: 25%;
 	margin-right: 25%;
 }
-.footer{
+.label {
+	text-align: center;
+}
+.footer {
 	background-color: #0ff;
 	border: 1px solid black;
 	border-radius: 15px 15px 15px 15px;

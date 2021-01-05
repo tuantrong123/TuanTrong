@@ -1,63 +1,53 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Bài 1</title>
-		<link rel="stylesheet" href="styles.css"/>
-		<link rel="preconnect" href="https://fonts.gstatic.com">
-		<link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<meta charset="utf-8">
+		<title>exercise 1+2+3</title>
 	</head>
 	<body>
 		<header>
-			<p id="logo">CS193x</p>
-			<nav class="navigation">
-			  <ul>
-				<li><a href="#">HOME</a></li>
-				<li><a href="#">ABOUT</a></li>
-				<li><a href="#">NEWS</a></li>
-				<li><a href="#">READ ME</a></li>
-				<li class="act"><a href="#">TAKE ACTIONS</a></li>
-			  </ul>
+			<nav>
+				<div>
+				<p class="label">CS193x</p>
+				  <ul>
+					<li class="menu">HOME</li>
+					<li class="menu">ABOUT</li>
+					<li class="menu">NEWS</li>
+					<li class="menu">READ ME</li>
+					<li class="menu border"><a><span>TAKE ACTIONS</span></a></li>
+				  </ul>
+				</div>
 			</nav>
-			<div class="hdcenter">
+			<div class="bottom-header">
 				<i>Sustainability</i>
-				<h1>STARTS WITH YOU</h1>
-				<button id="btn"><a href="https://www.facebook.com/trong.loan.5851">LEARN MORE</a></button>
+				<h1 class="heading">STARTS WITH YOU</h1>
+				<button class="border">LEARN MORE</button>
 			</div>
 		</header>
-		<content>
-		<div class="tbody">
-		<h2>We conserve land through outreach, restoration, and research.</h2>
-		<p>Some of the Earth's greatest landscapes are threatened by increased road<br>
-		construction, oil and gas exploration, and mining. We aim to protect these areas from<br>
-		inappropriate development, but we cannot acheive our goals alone. Find out<br>
-		how you can help.</p>
-		</div>
-		<div class="imgcontent">
-		<ul>
-            <li>
-                <div class="imgbox">
-                    <img src="materials/about.jpg">
-                    <p class="imgcap">About</p>
-                    <p class="imgp">Find out about our organization, mission, our methods, and the<br>
-                        results or our decades of advocary.
-                    </p>
-                </div>
-            </li>
-          <li>
-                <div class="imgbox">
-                    <img src="materials/takeaction.jpg" >
-                    <p class="imgcap">Take actions</p>
-                    <p class="imgp">Ready to take the next step? You can become a contributor to<br>
-                        our cause, or paticipate yourself.</p>
-                </div>
-            </li>
-        </ul>
+		<div class="container">
+			<div>
+			<p class="headline-we-research"><b>We conserve land through outreach, restoration, and research.</b></p>
+			<p>Some of the Earth's grestest landscapes are threatened by inscreased road construction, oil and gas exploration, and mining. We aim to protect these areas from inappropriate development, but we cannot achieve our goals alone. Find out how you can help.</p>
+			</div>
+			<div class="image">
+				<img class="picture_1" src="materials\about.jpg">
+				<img class="picture_2" src="materials\takeaction.jpg">	
+			</div>
+			<div class="image">
+				<div class="about">
+					<p class="font_1">ABOUT</p>
+					<p>Find out about organization, mission, our methods, and the results of our decades of advocary.</p>
+				</div>
+				<div class="take">
+					<p class="font_1">TAKE ACTION</p>
+					<p>Ready to take the next step?You can become a contributor to our cause, or participate yourself.  </p>
+				</div>
+			</div>
 		</div>
 		<footer>
-			<div>
-				<p> cs193x, SHRIRAM CENTER 104 </P>
-				<p style="color: gray"> Powered by competence </p>	
-			</div>
+			<p>CS193X, SHRIRAM CENTER 104</p>
+			<p class="footer-font">Powerced by competence</p>
 		</footer>
 	</body>
 </html>
