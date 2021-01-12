@@ -1,3 +1,7 @@
+* {
+	margin: 0;
+	padding:0;
+}
 .container {
 	margin: auto;
 	width: 75%;
@@ -21,12 +25,12 @@
 .content_2{
 	display: inline;
 }
-.picture_1 {
+.picture-about {
 	width: 450px;
 	margin: 15px;
 	height: 200px;
 }
-.picture_2 {
+.picture-take-action {
 	width: 450px;
 	height: 200px;
 	margin: 15px;
