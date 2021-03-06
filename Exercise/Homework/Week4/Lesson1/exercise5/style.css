@@ -7,13 +7,13 @@
 	display: grid;
 	grid-template-columns: 72% 28%;
 }
-.button_1 {
+.button-registration {
 	color: white;
 	background: green;
 	height: 50px;
 	width: 90%;
 }
-.button_2 {
+.button-log-in {
 	height: 50px;
 	width: 90%;
 }
