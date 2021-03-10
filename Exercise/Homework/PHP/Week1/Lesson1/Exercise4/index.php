@@ -7,6 +7,8 @@ echo ("VAT: 0.05"."<br>");
 $soluong = 500;
 $dongia = 160000;
 $vat = 0.05;
-echo "Chưa trừ VAT: " .$soluong * $dongia."<br>";
-echo "Đã trừ VAT: " .s$soluong * $dongia * $vat;
+echo ("Chưa trừ VAT: ");
+echo $soluong * $dongia."<br>";
+echo ("Đã trừ VAT: ");
+echo $soluong * $dongia * $vat;
 ?>
